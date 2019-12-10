@@ -154,6 +154,42 @@ public class TextUtil {
 		System.out.println("内容写入完毕：" + textFile.getAbsolutePath());
 		return textFile.getAbsolutePath();
 	}
+	
+	/**
+	 * 将一行文本写入文件中
+	 * @param textFile
+	 * @param line
+	 * @param append
+	 * @return
+	 */
+	public static String writeContent2textFile(File textFile,
+			String line, boolean append) {
+		System.out.println("开始写入文件：" + textFile.getAbsolutePath());
+		FileOutputStream fos = null;
+		PrintWriter pw = null;
+		try {
+			fos = new FileOutputStream(textFile, append);
+			pw = new PrintWriter(fos, true);
+			pw.println(line);
+		} catch (FileNotFoundException e) {
+			System.out.println("文件处理失败：" + textFile.getAbsolutePath() + ", "
+					+ e);
+		} finally {
+			if (pw != null) {
+				pw.close();
+			}
+			if (fos != null) {
+				try {
+					fos.close();
+				} catch (IOException e) {
+					System.out.println("文件关闭失败：" + textFile.getAbsolutePath()
+							+ ", " + e);
+				}
+			}
+		}
+		System.out.println("内容写入完毕：" + textFile.getAbsolutePath());
+		return textFile.getAbsolutePath();
+	}
 
 	/**
 	 * 测试代码

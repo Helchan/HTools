@@ -12,7 +12,7 @@ import org.dom4j.io.SAXReader;
 import org.xml.sax.SAXException;
 
 import com.google.common.collect.Lists;
-import com.heltec.tools.ideal.IXmlDeal;
+import com.heltec.tools.utils.ideal.IXmlDeal;
 
 /**
  * xml文件读写处理

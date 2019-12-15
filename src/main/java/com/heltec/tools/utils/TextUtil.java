@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 
 import org.apache.commons.io.FileUtils;
 
-import com.heltec.tools.ideal.ITextDeal;
+import com.heltec.tools.utils.ideal.ITextDeal;
 
 /**
  * 文本文件读写处理

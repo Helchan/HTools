@@ -1,6 +1,6 @@
 package com.heltec.tools.utils;
 
-import com.heltec.tools.ideal.IExcDeal;
+import com.heltec.tools.utils.ideal.IExcDeal;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.hssf.usermodel.*;

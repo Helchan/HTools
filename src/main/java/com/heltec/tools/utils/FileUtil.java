@@ -8,8 +8,8 @@ import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 
 import com.google.common.collect.Lists;
-import com.heltec.tools.ideal.IFileDeal;
-import com.heltec.tools.ideal.ITextDeal;
+import com.heltec.tools.utils.ideal.IFileDeal;
+import com.heltec.tools.utils.ideal.ITextDeal;
 
 /**
  * 文件处理工具

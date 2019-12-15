@@ -1,4 +1,4 @@
-package com.heltec.tools.ideal;
+package com.heltec.tools.utils.ideal;
 
 import java.util.List;
 

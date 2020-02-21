@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class OracleUtil {
-	private static String url = "jdbc:oracle:thin:@10.20.131.79:1526:d0aiclaim";
-	private static String username = "aiclaimopr";
-	private static String password = "paic12345";
+	private static String url = "jdbc:oracle:thin:@10.10.100.10:1526:dddd";
+	private static String username = "aaaaa";
+	private static String password = "pppppp";
 	private static Connection connection = null;
 	static {
 		try {
@@ -114,10 +114,8 @@ public class OracleUtil {
 	 */
 	public static boolean executeSql(String sql) {
 		try {
-			System.out.println("================开始执行SQL================\n"
-					+ sql);
-			PreparedStatement prepareStatement = connection
-					.prepareStatement(sql);
+			System.out.println("================开始执行SQL================\n" + sql);
+			PreparedStatement prepareStatement = connection.prepareStatement(sql);
 			boolean executeFlag = prepareStatement.execute();
 			System.out.println("执行SQL成功!");
 			return executeFlag;

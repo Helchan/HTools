@@ -66,12 +66,9 @@ public class ExcelUtil {
 	/**
 	 * 读取Excel单元格中的内容存入List中
 	 * 
-	 * @param excFile
-	 *            Excel文件
-	 * @param sheetIndexs
-	 *            sheet索引集合
-	 * @param deal
-	 *            处理对象
+	 * @param excFile Excel文件
+	 * @param sheetIndexs sheet索引集合
+	 * @param deal 处理对象
 	 * @return cell内容组成的List组成的List
 	 */
 	public static List<List<String>> getCellsContent(File excFile, List<Integer> sheetIndexs) {
@@ -96,12 +93,9 @@ public class ExcelUtil {
 	/**
 	 * 创建Excel文件，写入数据
 	 * 
-	 * @param outputexcFile
-	 *            输出文件（.xls）
-	 * @param headers
-	 *            表头
-	 * @param data
-	 *            表数据
+	 * @param outputexcFile 输出文件（.xls）
+	 * @param headers 表头
+	 * @param data 表数据
 	 * @return 文件全路径
 	 */
 	public static String writeContent2Excel(File outputexcFile,

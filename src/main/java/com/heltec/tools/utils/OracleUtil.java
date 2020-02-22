@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class OracleUtil {
-	private static String url = "jdbc:oracle:thin:@10.10.100.10:1526:dddd";
-	private static String username = "aaaaa";
-	private static String password = "pppppp";
+	private static String url = "jdbc:oracle:thin:@localhost:1521:hdb";
+	private static String username = "hdbuser";
+	private static String password = "hdbuser";
 	private static Connection connection = null;
 	static {
 		try {

@@ -18,19 +18,6 @@ import com.heltec.tools.utils.TextUtil;
 import com.heltec.tools.utils.ideal.IExcDeal;
 
 public class TestJsoup {
-	/*@Test
-	public void func01(){
-		ExcelUtil.processFile(new File("D:\\Others\\CodeTest\\test01.xlsx"), null, new IExcDeal<String>() {
-
-			@Override
-			public void execute(Row row, List<String> back) {
-				System.out.println(row.getCell(0).toString());
-			}
-		});
-		
-		System.out.println(ExcelUtil.getCellsContent(new File("D:\\Others\\CodeTest\\test01.xlsx"), null));
-	}*/
-	
 	@Test
 	public void func02() throws Exception{
 		File textFile = new File("d:/星辰变后传2.txt");

@@ -17,7 +17,7 @@ import com.heltec.tools.utils.ExcelUtil;
 import com.heltec.tools.utils.TextUtil;
 import com.heltec.tools.utils.ideal.IExcDeal;
 
-public class Test01 {
+public class TestJsoup {
 	/*@Test
 	public void func01(){
 		ExcelUtil.processFile(new File("D:\\Others\\CodeTest\\test01.xlsx"), null, new IExcDeal<String>() {
